@@ -1,0 +1,139 @@
+.popup{
+    all: unset;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    position: fixed;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.router-popup-inner{
+    all: unset;
+    margin-left: 30vw;
+    margin-bottom: 25vh;
+    position: relative;
+    /* max-width: 640px; */
+    height: auto;
+    width: 60%;
+    background-color: rgb(219, 219, 219);
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    outline: 2px solid rgb(195,195,195);
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+
+.router-popup-inner .close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.router-header{
+    flex: 1;
+    background-color: blue;
+}
+
+.router-header h1{
+    margin: 2px; 
+    padding: 0;
+    color: white;
+}
+.router-content{
+    flex: 25;
+    width: 100%;
+    padding: 0px;
+    width: 98%;
+    margin: auto;
+    overflow: auto;
+    font-size: 18px;
+}
+
+.router-description{
+    height: auto;
+    margin: auto; 
+    margin-top: 1%; margin-bottom: 0;
+    padding: 0px;
+    /* border-top: 3px solid rgb(49, 49, 49); border-left: 3px solid rgb(49, 49, 49);
+    border-bottom: 2px solid white; border-right: 2px solid white; */
+    overflow: auto;
+    padding-top: 0 10px;
+}
+
+.router-description h2{
+    margin: 0;
+    padding: 0;
+}
+
+.router-description img{
+    position: absolute;
+    width: 15%;
+    right: 2%;
+}
+.router-description text{
+    width: 80%;
+    height: 100%;
+    padding: 0px;
+}
+
+
+.router-video-container{
+    width: 100%;
+    height: auto;
+    margin: auto; 
+}
+
+.router-video-container img{
+    cursor: pointer;
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    outline: 2px solid rgb(195,195,195);
+    padding: 5px;
+    border-radius: 2%;
+}
+
+.router-video iframe{
+    margin: 0; padding: 0;
+    
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

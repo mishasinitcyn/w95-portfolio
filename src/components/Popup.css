@@ -1,0 +1,139 @@
+.popup{
+    all: unset;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    position: fixed;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popup-inner{
+    all: unset;
+    margin: auto;
+    position: relative;
+    /* max-width: 640px; */
+    height: 40%;
+    width: 50%;
+    background-color: rgb(219, 219, 219);
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    outline: 2px solid rgb(195,195,195);
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.popup-header{
+    flex: 1;
+    background-color: blue;
+}
+
+.popup-header h1{
+    margin: 2px; 
+    padding: 0;
+    color: white;
+}
+.popup-content{
+    flex: 25;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.popup-content-top{
+    flex: 5;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+.popup-content-top h1{
+    width: 100%;
+    margin: auto;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.popup-content-top p{
+    flex: 20;
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+.popup-content-top img{
+    flex: 1;
+    height: 20%;
+    vertical-align: center;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.popup-content-bottom{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+}
+
+.popup-content-bottom a{
+    margin-right: 2%;
+}
+
+.link-button{
+    font-size: 30px;
+    width: auto;
+    padding: 5px;
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* 
+.link-button p:hover{
+    border: 2px dotted black;
+    padding: 0; margin: 0;
+} */
+
+.link-button:hover{
+    background-color: rgb(241, 239, 239);
+}
+
+
+a{
+    all: unset;
+}
