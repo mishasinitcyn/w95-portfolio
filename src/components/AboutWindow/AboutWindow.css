@@ -1,0 +1,137 @@
+.about-popup{
+    all: unset;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    position: fixed;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-popup-inner{
+    all: unset;
+    margin: auto;
+    position: relative;
+    /* max-width: 640px; */
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    background-color: rgb(219, 219, 219);
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    outline: 2px solid rgb(195,195,195);
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-popup-inner .close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.about-header{
+    flex: 1;
+    background-color: rgb(0,0,130);
+    background-color: blue;
+}
+
+.about-header h1{
+    margin: 2px; 
+    padding: 0;
+    color: white;
+}
+.about-content{
+    flex: 25;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: scroll;
+}
+
+
+.projects-popup-inner .close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.about-education{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 2%;
+}
+
+.about-education-left{
+    flex: 2;
+}
+
+.about-education-right{
+    flex: 1;
+    align-items: right;
+    align-content: right;
+}
+.about-education-right img{
+    width: 100%;
+}
+
+.about-courses{
+    flex: 1;
+    height: 100px;
+    overflow: auto;
+    width: 98%;
+    margin: auto;
+}
+
+.courses-table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 30px;
+    overflow: hidden;
+}
+th{
+    background-color: rgb(192,199,200);
+    border-bottom: 2px solid black;
+    text-align: left;
+    padding-left: 10px;
+}
+td{
+    text-align: left;
+    padding-left: 10px;
+}
+
+td img{
+    height: 20px;
+}
+
+tr:hover td{
+    background-color: darkblue;
+    background-color: blue;
+    border-top: 3px dotted white;
+    border-bottom: 3px dotted black;
+    color: white;
+    cursor: pointer;
+}

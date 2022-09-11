@@ -17,12 +17,14 @@ import userCardIcon from "./user_card.png"
 import startButton from "./start-button.png"
 import {ProjectsWindow} from "./components/ProjectsWindow/ProjectsWindow.jsx"
 import {ContactInfoWindow} from "./components/ContactInfoWindow/ContactInfoWindow.jsx"
+import {AboutWindow} from "./components/AboutWindow/AboutWindow.jsx"
 
 
 function App() {
   const [buttonPopup, setButtonPopup] = useState(true);
   const[ProjectsWindowOpen, setProjectsWindowOpen] = useState(false);
   const[ContactInfoWindowOpen, setContactInfoWindowOpen] = useState(false);
+  const[AboutWindowOpen, setAboutWindowOpen] = useState(false);
 
   return (
     <div className="App" >
@@ -43,7 +45,7 @@ function App() {
             <img src={ContactInfoWindowOpen ? envelopeOpenIcon: envelopeClosedIcon}/>
             <p>Contact Info</p>
           </div>
-          <div className="folder-icon">
+          <div className="folder-icon" onClick={() => setAboutWindowOpen(true)}>
             <img src={userCardIcon}/>
             <p>About Me</p>
           </div>
@@ -62,6 +64,9 @@ function App() {
 
       <ContactInfoWindow trigger={ContactInfoWindowOpen} setTrigger={setContactInfoWindowOpen}>
       </ContactInfoWindow>
+
+      <AboutWindow trigger={AboutWindowOpen} setTrigger={setAboutWindowOpen}>
+      </AboutWindow>
 
     </div>
   );
