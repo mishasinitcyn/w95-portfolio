@@ -1,36 +1,19 @@
 import React from 'react'
-import "./AboutWindow.css"
-import {useState} from 'react';
-import {EducationWindow} from "./EducationWindow/EducationWindow"
+import "./EducationWindow.css"
 
-export const AboutWindow = (props) => {
-    const [EducationPopup, setEducationPopup] = useState(false);
-
+export const EducationWindow = (props) => {
     return (props.trigger) ?(
-        <div className="about-popup">
+        <div className="education-popup">
 
-            <div className="about-popup-inner">
+            <div className="education-popup-inner">
 
-                <div className="about-header">
-                    <h1>About Me</h1>
+                <div className="education-header">
+                    <h1>Courses Taken at Simon Fraser University</h1>
                     <button className="close-btn" onClick={() => props.setTrigger(false)}>X</button>
                 </div>
 
-                <div className="about-content">
-                    <div className="about-education">
-                        <div className="about-education-left">
-                            <h2>Education</h2>
-                            <p><strong>Bachelor of Computer Science</strong></p>
-                            <p>Expected Graduation Year 2024</p>
-                            <p onClick={() => setEducationPopup(true) }>View Courses Taken </p>
-                        </div>
-                        <div className="about-education-right">
-                            <img src="https://viewpointvancouver.ca/wp-content/uploads/2021/01/SFU-logo.png"></img>
-                        </div>
-                    </div>
-                    
-                    <div className="about-courses">
-                    {/* <table className="courses-table">
+                <div className="education-content">
+                    <table className="courses-table">
                         <tr>
                             <th>Course Name</th>
                             <th>Course Code</th>
@@ -39,11 +22,6 @@ export const AboutWindow = (props) => {
                         <tr>
                             <td>Algebra I: Linear Algebra</td>
                             <td>MATH240</td>
-                            <td>Completed</td>
-                        </tr>
-                        <tr>
-                            <td>Artificial Intelligence</td>
-                            <td>CMPT310</td>
                             <td>Completed</td>
                         </tr>
                         <tr>
@@ -92,6 +70,11 @@ export const AboutWindow = (props) => {
                             <td>Completed</td>
                         </tr>
                         <tr>
+                            <td>Introduction to Artificial Intelligence</td>
+                            <td>CMPT310</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr>
                             <td>Introduction to Computer Systems</td>
                             <td>CMPT295</td>
                             <td>In Progress</td>
@@ -110,11 +93,6 @@ export const AboutWindow = (props) => {
                             <td>Microeconomics</td>
                             <td>ECON103</td>
                             <td>Completed</td>
-                        </tr>
-                        <tr>
-                            <td>Multimedia Systems</td>
-                            <td>CMPT365</td>
-                            <td>In Progress</td>
                         </tr>
                         <tr>
                             <td>Numerical Analysis</td>
@@ -136,14 +114,10 @@ export const AboutWindow = (props) => {
                             <td>CMPT363</td>
                             <td>In Progress</td>
                         </tr>
-
-                    </table> */}
-                    </div>
+                    </table>
                 </div>
             </div>
-            <EducationWindow trigger={EducationPopup} setTrigger={setEducationPopup}/>
 
         </div>
     ) : "";
 }
-
