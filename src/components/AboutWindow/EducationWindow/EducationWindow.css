@@ -60,6 +60,7 @@
 .education-content{
     flex: 25;
     width: 100%;
+    margin: auto;
     overflow: auto;
 }
 
@@ -80,6 +81,8 @@ th{
 td{
     text-align: left;
     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
 }
 
 td img{

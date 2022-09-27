@@ -100,7 +100,7 @@ export const EducationWindow = (props) => {
                             <td>Completed</td>
                         </tr>
                         <tr>
-                            <td>Social Issues and Communication Strategies in Computing Science</td>
+                            <td>Communication Strategies in Computing Science</td>
                             <td>CMPT105W</td>
                             <td>Completed</td>
                         </tr>

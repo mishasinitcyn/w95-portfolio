@@ -40,6 +40,12 @@ export const BloodBank = (props) => {
                             <li>PostgreSQL</li>
                         </ul>
                     </div>
+                    <div className="blood-bank-description">
+                        <p><strong>View deployed app on Heroku</strong></p>
+                        <text style={{color: "blue", cursor: "pointer"}}>
+                            <a href="https://best-354-app.herokuapp.com/">Link</a><br></br><br></br>
+                        </text>
+                    </div>
 
                 </div>
             </div>
