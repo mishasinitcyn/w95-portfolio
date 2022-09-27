@@ -26,7 +26,7 @@ export const CancerData = (props) => {
                     <div className="router-tech">
                         <p><strong>My Contributions</strong></p>
                         <ul>
-                            <li>Used Numerical Analysis concepts such as the sigmoid function and nonlinear fitting to analyze medical data</li>
+                            <li>Used Data Analysis concepts such as the sigmoid function and nonlinear fit to analyze medical data</li>
                             <li>Graphed and analyzed findings in MATLAB</li>
                         </ul>
                     </div>
