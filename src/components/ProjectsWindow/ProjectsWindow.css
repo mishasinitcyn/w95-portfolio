@@ -126,6 +126,7 @@ a{
 }
 
 .projects-table{
+    font-family: MS sans serif;
     border-collapse: collapse;
     width: 100%;
     font-size: 30px;

@@ -69,12 +69,12 @@
 .blood-bank-description{
     height: auto;
     margin: auto; 
-    margin-top: 1%; margin-bottom: 0;
+    margin-top: 0; margin-bottom: 0;
     padding: 0px;
     /* border-top: 3px solid rgb(49, 49, 49); border-left: 3px solid rgb(49, 49, 49);
     border-bottom: 2px solid white; border-right: 2px solid white; */
     overflow: auto;
-    padding-top: 0 10px;
+    /* padding-top: 0 10px; */
 }
 
 .blood-bank-description h2{
@@ -94,7 +94,22 @@
 }
 
 
-
+#view-button{
+    font-family:"MS Sans Serif";
+    font-size:11px;
+    outline:1px solid #000000;
+    background:#C0C0C0;
+    border-width:1px;
+    border-style:solid;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    padding:4px 10px;
+    margin:20px auto 3px;
+    display:block;
+    position:relative;
+    bottom:0px;
+    display: inline-block;
+    cursor: pointer;
+}
 
 
 

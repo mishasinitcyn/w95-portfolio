@@ -58,8 +58,9 @@ export const FortisBC = (props) => {
                         {/* <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BQbco5ynQIs" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" 
                         className="fortisbc-video"></iframe> */}
-                        <p><strong>Video Demo</strong></p> 
-                        <a href="https://www.youtube.com/embed/BQbco5ynQIs" target="_blank" ><img src={videoIcon}></img></a>
+                        {/* <p><strong>Video Demo</strong></p>  */}
+                        <button style={{marginBottom: "20px"}}id="view-button"><a href="https://www.youtube.com/embed/BQbco5ynQIs" target="_blank">View video demo</a></button>
+                        {/* <a href="https://www.youtube.com/embed/BQbco5ynQIs" target="_blank" ><img src={videoIcon}></img></a> */}
                     </div>
 
                 </div>

@@ -20,9 +20,12 @@ function Popup(props) {
                         <p>Welcome to Mikhail Sinitcyn's online portfolio.<br></br> Feel free to look around, view my projects, and contact me.</p>
                     </div>
                     <div className="popup-content-bottom">
-                        <a href="https://github.com/mishasinitcyn"> <div className="link-button">Github</div> </a>
-                        <a href="https://www.linkedin.com/in/mikhail-sinitcyn-8909b5224/"> <div className="link-button">LinkedIn</div> </a>
-                        <a href="https://www.linkedin.com/in/mikhail-sinitcyn-8909b5224/"> <div className="link-button">Email</div> </a>
+                        <button style={{marginBottom: "20px"}} >
+                            <a href="https://www.linkedin.com/in/mikhail-sinitcyn-8909b5224/" target="_blank">LinkedIn</a>
+                        </button>
+                        <button style={{marginBottom: "20px"}}>
+                            <a href="https://github.com/mishasinitcyn" target="_blank">Github</a>
+                        </button>
                     </div>
                 </div>
             </div>

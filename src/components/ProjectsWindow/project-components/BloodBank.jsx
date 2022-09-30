@@ -20,7 +20,7 @@ export const BloodBank = (props) => {
                         </text>
                     </div>
 
-                    <div className="blood-bank-tech">
+                    <div className="blood-bank-description">
                         <p><strong>My Contributions</strong></p>
                         <ul>
                             <li>Composed complex queries such as divison, nested aggregation and grouping.</li>
@@ -30,7 +30,7 @@ export const BloodBank = (props) => {
                         </ul>
                     </div>
 
-                    <div className="fortis-tech">
+                    <div className="blood-bank-description">
                         <p><strong>Languages, Frameworks, Libraries Used</strong></p>
                         <ul>
                             <li>Node</li>
@@ -41,10 +41,13 @@ export const BloodBank = (props) => {
                         </ul>
                     </div>
                     <div className="blood-bank-description">
+                        {/* 
                         <p><strong>View deployed app on Heroku</strong></p>
                         <text style={{color: "blue", cursor: "pointer"}}>
                             <a href="https://best-354-app.herokuapp.com/">Link</a><br></br><br></br>
                         </text>
+                         */}
+                         <button style={{marginBottom: "20px"}}id="view-button"><a href="https://best-354-app.herokuapp.com/" target="_blank">View deployed app on Heroku</a></button>
                     </div>
 
                 </div>

@@ -86,15 +86,34 @@
 }
 
 .about-education-left{
+    font-family:"MS Sans Serif";
     flex: 2;
+    margin-left: 1%;
 }
 
 .about-education-right{
     flex: 1;
     align-items: right;
     align-content: right;
+    background-color: rgb(205,61,61);
 }
 .about-education-right img{
     width: 100%;
 }
 
+#view-courses-button{
+font-family:"MS Sans Serif";
+  font-size:11px;
+  outline:1px solid #000000;
+  background:#C0C0C0;
+  border-width:1px;
+  border-style:solid;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:4px 10px;
+  margin:20px auto 3px;
+  display:block;
+  position:relative;
+  bottom:0px;
+  display: inline-block;
+  cursor: pointer;
+}
