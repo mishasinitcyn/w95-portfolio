@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.210254c7.css",
-    "main.js": "/static/js/main.3abe2882.js",
-    "static/media/prompt.png": "/static/media/prompt.aedd8949c4c7f2d691a7.png",
-    "static/media/FortisBCLogo.png": "/static/media/FortisBCLogo.242c45e42729c8c49d41.png",
-    "index.html": "/index.html",
-    "main.210254c7.css.map": "/static/css/main.210254c7.css.map",
-    "main.3abe2882.js.map": "/static/js/main.3abe2882.js.map"
+    "main.css": "/w95-portfolio/static/css/main.210254c7.css",
+    "main.js": "/w95-portfolio/static/js/main.73d6ac29.js",
+    "static/media/prompt.png": "/w95-portfolio/static/media/prompt.aedd8949c4c7f2d691a7.png",
+    "static/media/FortisBCLogo.png": "/w95-portfolio/static/media/FortisBCLogo.242c45e42729c8c49d41.png",
+    "index.html": "/w95-portfolio/index.html",
+    "main.210254c7.css.map": "/w95-portfolio/static/css/main.210254c7.css.map",
+    "main.73d6ac29.js.map": "/w95-portfolio/static/js/main.73d6ac29.js.map"
   },
   "entrypoints": [
     "static/css/main.210254c7.css",
-    "static/js/main.3abe2882.js"
+    "static/js/main.73d6ac29.js"
   ]
 }
