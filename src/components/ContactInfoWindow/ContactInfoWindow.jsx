@@ -13,7 +13,11 @@ export const ContactInfoWindow = (props) => {
 
                 <div className="content">
                     <div className="content-top">
-                        <h1>Contact Info</h1>
+                        <ul>
+                            <li>Email - msa242@sfu.ca</li>
+                            <li>LinkedIn - https://www.linkedin.com/in/mikhail-sinitcyn-8909b5224/</li>
+                            <li>Github - https://github.com/mishasinitcyn</li>
+                        </ul>
                     </div>
                     <div className="content-bottom">
                         <div className="bottom-left">
