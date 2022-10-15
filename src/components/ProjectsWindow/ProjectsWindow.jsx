@@ -8,12 +8,14 @@ import {FortisBC} from "./project-components/FortisBC"
 import {BloodBank} from "./project-components/BloodBank"
 import {Router} from "./project-components/Router"
 import {CancerData} from "./project-components/CancerData"
+import {ClimateData} from "./project-components/ClimateData"
 
 export const ProjectsWindow = (props) => {
     const [FortisPopup, setFortisPopup] = useState(false);
     const [BloodBankPopup, setBloodBankPopup] = useState(false);
     const [RouterPopup, setRouterPopup] = useState(false)
     const [CancerDataPopup, setCancerDataPopup] = useState(false)
+    const [ClimateDataPopup, setClimateDataPopup] = useState(false)
 
     return (props.trigger) ?(
         <div className="popup">
@@ -58,7 +60,7 @@ export const ProjectsWindow = (props) => {
                             <td><a href="https://github.com/mishasinitcyn/Computing-Report-Cancer-Data-Analysis/blob/main/Computing%20Report%203%20Mikhail%20Sinitcyn.pdf">Github</a></td>
                         </tr>
                         <tr>
-                            <td><img src={documentIcon}/> Climate Data Analysis</td>
+                            <td onClick={() => setClimateDataPopup(true)} ><img src={documentIcon}/> Climate Data Analysis</td>
                             <td>Aug 2022</td>
                             <td>CMPT310</td>
                             <td>Github</td>
@@ -72,6 +74,7 @@ export const ProjectsWindow = (props) => {
             <BloodBank trigger={BloodBankPopup} setTrigger={setBloodBankPopup}/>
             <Router trigger={RouterPopup} setTrigger={setRouterPopup}/>
             <CancerData trigger={CancerDataPopup} setTrigger={setCancerDataPopup}/>
+            <ClimateData trigger={ClimateDataPopup} setTrigger={setClimateDataPopup}/>
 
         </div>
     ) : "";

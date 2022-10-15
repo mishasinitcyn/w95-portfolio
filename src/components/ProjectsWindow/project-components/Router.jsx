@@ -22,20 +22,22 @@ export const Router = (props) => {
                         <p><strong>Project Description</strong></p>
                         <p>
                             This program reads a routing table from a text file, orders the addresses by mask length, and
-                            uses the forwarding algorithm to forward a given packet. Includes binary operations and internet protocols.
+                            uses the forwarding algorithm to forward a given packet.
 
                         </p>
                         
                     </div>
 
-                    <div className="router-carousel">
-                        <Carousel cols={1} rows={1} gap={10} loop="true" >
+                    <div className="router-carousel" style={{marginTop: "2%", position: "relative", width: "98%", margin: "auto"}}>
+                        <Carousel cols={1} rows={1} gap={10} loop="true" hideArrow>
                             <Carousel.Item>
                                 <img width="100%" src={router1} />
                             </Carousel.Item>
+                            {/* 
                             <Carousel.Item>
                                 <img width="100%" src={router2} />
                             </Carousel.Item>
+                             */}
                         </Carousel>
                     </div>   
 

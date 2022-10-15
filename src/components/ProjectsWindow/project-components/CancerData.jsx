@@ -1,6 +1,10 @@
 import React from 'react'
 import "./CancerData.css"
 import videoIcon from "./video_mk-2.png"
+import Carousel from 'better-react-carousel'
+import cancerdata1 from "./Images/cancerdata1.jpg"
+import cancerdata2 from "./Images/cancerdata2.jpg"
+import cancerdata3 from "./Images/cancerdata3.jpg"
 
 
 export const CancerData = (props) => {
@@ -23,6 +27,20 @@ export const CancerData = (props) => {
                         
                     </div>
 
+                    <div className="cancerdata-carousel" style={{marginTop: "2%", position: "relative", width: "98%", margin: "auto"}}>
+                        <Carousel cols={2} rows={1} gap={10} loop="true" >
+                            <Carousel.Item>
+                                <img width="100%" src={cancerdata1} />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img width="100%" src={cancerdata2} />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img width="100%" src={cancerdata3} />
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>   
+
                     <div className="router-tech">
                         <p><strong>My Contributions</strong></p>
                         <ul>
@@ -38,13 +56,7 @@ export const CancerData = (props) => {
                         </ul>
                     </div>
                                     
-                {/*                     
-                    <div className="router-video-container">
-                        
-                        <p><strong>Video Demo</strong></p> 
-                        <a href="https://www.youtube.com/embed/BQbco5ynQIs" target="_blank" ><img src={videoIcon}></img></a>
-                    </div> 
-                */}
+            
 
                 </div>
             </div>

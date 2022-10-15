@@ -21,7 +21,7 @@ export const FortisBC = (props) => {
                 <div className="fortis-content">
                     <div className="fortis-description">
                         {/* <h2>Project Description</h2> */}
-                        <a href="https://www.fortisbc.com" style={{cursor: "pointer"}} target="_blank"><img src={FortisBCLogo}/></a>
+                        {/* <a href="https://www.fortisbc.com" style={{cursor: "pointer"}} target="_blank"><img src={FortisBCLogo}/></a> */}
                         <p><strong>Project Description</strong></p>
                         <p>
                             I worked within a team of five developers on a document database and management system for the energy company FortisBC. The application originated as a school project with no promise of 
