@@ -3,6 +3,10 @@ import "./FortisBC.css"
 import videoIcon from "./video_mk-2.png"
 
 import FortisBCLogo from "./FortisBCLogo.png"
+import Carousel from 'better-react-carousel'
+import fortis1 from "./Images/fortis1.png"
+import fortis2 from "./Images/fortis2.png"
+import fortis3 from "./Images/fortis3.png"
 
 export const FortisBC = (props) => {
     return (props.trigger) ?(
@@ -26,6 +30,20 @@ export const FortisBC = (props) => {
                         </p>
                         
                     </div>
+
+                    <div className="fortis-carousel">
+                        <Carousel cols={1} rows={1} gap={10} loop="true" >
+                            <Carousel.Item>
+                                <img width="100%" src={fortis1} />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img width="100%" src={fortis2} />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img width="100%" src={fortis3} />
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>   
 
                     <div className="fortis-tech">
                         <p><strong>My Contributions</strong></p>
@@ -51,8 +69,7 @@ export const FortisBC = (props) => {
                             <li>node-html-pdf</li>
                             <li>React blob</li>
                         </ul>
-                    </div>
-                                    
+                    </div>       
                     
                     <div className="fortisbc-video-container">
                         {/* <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BQbco5ynQIs" title="YouTube video player" frameborder="0"

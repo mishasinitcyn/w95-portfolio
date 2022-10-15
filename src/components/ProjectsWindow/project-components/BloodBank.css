@@ -93,7 +93,9 @@
     padding: 0px;
 }
 
-
+.bloodbank-carousel{
+    margin-top: 5%;
+}
 #view-button{
     font-family:"MS Sans Serif";
     font-size:11px;

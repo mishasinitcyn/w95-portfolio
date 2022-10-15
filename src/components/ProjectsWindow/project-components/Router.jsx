@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Router.css"
 import videoIcon from "./video_mk-2.png"
+import Carousel from 'better-react-carousel'
+import router1 from "./Images/router1.png"
+import router2 from "./Images/router2.png"
 
 
 export const Router = (props) => {
@@ -24,6 +27,17 @@ export const Router = (props) => {
                         </p>
                         
                     </div>
+
+                    <div className="router-carousel">
+                        <Carousel cols={1} rows={1} gap={10} loop="true" >
+                            <Carousel.Item>
+                                <img width="100%" src={router1} />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img width="100%" src={router2} />
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>   
 
                     <div className="router-tech">
                         <p><strong>My Contributions</strong></p>
