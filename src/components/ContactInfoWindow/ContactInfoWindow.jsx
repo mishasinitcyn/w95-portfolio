@@ -4,7 +4,7 @@ export const ContactInfoWindow = (props) => {
     return (props.trigger) ?(
         <div className="popup">
 
-            <div className="popup-inner">
+            <div className="popup-inner" style={{height: "auto", minHeight: "150px",position: "absolute", top: "20%"}}>
 
                 <div className="header">
                     <h1>Contact Info</h1>
@@ -13,10 +13,10 @@ export const ContactInfoWindow = (props) => {
 
                 <div className="content">
                     <div className="content-top">
-                        <ul>
-                            <li>Email - msa242@sfu.ca</li>
-                            <li>LinkedIn - https://www.linkedin.com/in/mikhail-sinitcyn-8909b5224/</li>
-                            <li>Github - https://github.com/mishasinitcyn</li>
+                        <ul style={{listStyleType: "none", fontSize: "100%"}}>
+                            <li><strong>Email:</strong> msa242@sfu.ca</li>
+                            <li><strong>LinkedIn:</strong> https://www.linkedin.com/in/mikhail-sinitcyn-8909b5224/</li>
+                            <li><strong>Github:</strong> https://github.com/mishasinitcyn</li>
                         </ul>
                     </div>
                     <div className="content-bottom">

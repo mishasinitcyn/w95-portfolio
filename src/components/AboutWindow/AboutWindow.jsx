@@ -2,6 +2,7 @@ import React from 'react'
 import "./AboutWindow.css"
 import {useState} from 'react';
 import {EducationWindow} from "./EducationWindow/EducationWindow"
+import userCardIcon from "./user_card.png"
 
 export const AboutWindow = (props) => {
     const [EducationPopup, setEducationPopup] = useState(false);
@@ -17,6 +18,16 @@ export const AboutWindow = (props) => {
                 </div>
 
                 <div className="about-content">
+                    
+                    <div className="about-me">
+                        <img src={userCardIcon}/>
+                        <text>My name is Mikhail (Misha) Sinitcyn. I am a computer science student studying web development, databases, data structures, algorithms and artificial intelligence.
+                        I am well versed in C, C++, JavaScript, React, Express, HTML, CSS, MATLAB, and Python. I am fluent in English, Russian and French, having lived in Russia and Canada.
+                        In my freetime I enjoy exercising, reading, and playing music. <br></br>
+                        Read about my projects in the Academic Projects section. 
+                         </text>
+                    
+                    </div>
                     <div className="about-education">
                         <div className="about-education-left">
                             <h2>Education</h2>
@@ -32,9 +43,7 @@ export const AboutWindow = (props) => {
                         </div>
                     </div>
                     
-                    <div className="about-courses">
                     
-                    </div>
                 </div>
             </div>
             <EducationWindow trigger={EducationPopup} setTrigger={setEducationPopup}/>

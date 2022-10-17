@@ -26,6 +26,7 @@ function App() {
   const[ContactInfoWindowOpen, setContactInfoWindowOpen] = useState(false);
   const[AboutWindowOpen, setAboutWindowOpen] = useState(false);
 
+  
   return (
     <div className="App" >
       <div className="main-screen" >

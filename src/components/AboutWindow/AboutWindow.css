@@ -16,12 +16,13 @@
 
 .about-popup-inner{
     all: unset;
-    margin: auto;
-    position: relative;
+    /* margin: auto; */
+    position: absolute;
+    top: 20%;
     /* max-width: 640px; */
-    height: 80%;
+    height: auto;
     width: 80%;
-    background-color: white;
+    /* background-color: white; */
     background-color: rgb(219, 219, 219);
     border: 2px solid white;
     border-right: 2px solid black;
@@ -61,6 +62,26 @@
     flex-direction: column;
     width: 100%;
     overflow: scroll;
+}
+
+.about-me{
+    width: 98%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.about-me img{
+    flex:1;
+    max-height: 50px;
+    max-width: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.about-me text{
+    flex: 10;
 }
 
 
