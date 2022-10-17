@@ -1,15 +1,36 @@
 {
   "files": {
-    "main.css": "/w95-portfolio/static/css/main.210254c7.css",
-    "main.js": "/w95-portfolio/static/js/main.73d6ac29.js",
+    "main.css": "/w95-portfolio/static/css/main.8ecb4092.css",
+    "main.js": "/w95-portfolio/static/js/main.868c95e0.js",
     "static/media/prompt.png": "/w95-portfolio/static/media/prompt.aedd8949c4c7f2d691a7.png",
+    "static/media/cancerdata1.jpg": "/w95-portfolio/static/media/cancerdata1.46ab08d2df7e09cff000.jpg",
+    "static/media/cancerdata2.jpg": "/w95-portfolio/static/media/cancerdata2.19df64e69e607593ee8c.jpg",
+    "static/media/Climatedata8.jpg": "/w95-portfolio/static/media/Climatedata8.07c013e831798b37e22c.jpg",
+    "static/media/Climatedata1.jpg": "/w95-portfolio/static/media/Climatedata1.e6875d6a3f733a8e7705.jpg",
+    "static/media/Climatedata6.jpg": "/w95-portfolio/static/media/Climatedata6.5d427a352ee1146de11e.jpg",
+    "static/media/Climatedata5.jpg": "/w95-portfolio/static/media/Climatedata5.16746fdda707a6e39088.jpg",
+    "static/media/Climatedata7.jpg": "/w95-portfolio/static/media/Climatedata7.5f3e6147ce716badea00.jpg",
+    "static/media/Climatedata2.jpg": "/w95-portfolio/static/media/Climatedata2.fb84598956a7a33a7694.jpg",
+    "static/media/router2.png": "/w95-portfolio/static/media/router2.5aeee4170942251edeff.png",
+    "static/media/Climatedata3.jpg": "/w95-portfolio/static/media/Climatedata3.16093afcbdf1e53a29f9.jpg",
+    "static/media/cancerdata3.jpg": "/w95-portfolio/static/media/cancerdata3.fb4e3e78c7259f3204db.jpg",
+    "static/media/Climatedata9.jpg": "/w95-portfolio/static/media/Climatedata9.66dceb2a319aea6babbe.jpg",
+    "static/media/fortis3.png": "/w95-portfolio/static/media/fortis3.1e00778e59759af7c1bc.png",
+    "static/media/Climatedata4.jpg": "/w95-portfolio/static/media/Climatedata4.6ba3b8d57b0d5dc4efd5.jpg",
+    "static/media/fortis1.png": "/w95-portfolio/static/media/fortis1.9cb534c805793d3bc421.png",
+    "static/media/bloodbank1.png": "/w95-portfolio/static/media/bloodbank1.b5e4be4218193cfec053.png",
+    "static/media/bloodbank2.jpg": "/w95-portfolio/static/media/bloodbank2.a5f1ba7b23e68d8d95b3.jpg",
+    "static/media/fortis2.png": "/w95-portfolio/static/media/fortis2.55755bc4f32d8d277efe.png",
+    "static/media/bloodbank4.jpg": "/w95-portfolio/static/media/bloodbank4.23bfd4c04301d769ed87.jpg",
+    "static/media/bloodbank3.jpg": "/w95-portfolio/static/media/bloodbank3.95b831aafddaa123d7fa.jpg",
     "static/media/FortisBCLogo.png": "/w95-portfolio/static/media/FortisBCLogo.242c45e42729c8c49d41.png",
+    "static/media/router1.png": "/w95-portfolio/static/media/router1.cc617e7ff395f55ab796.png",
     "index.html": "/w95-portfolio/index.html",
-    "main.210254c7.css.map": "/w95-portfolio/static/css/main.210254c7.css.map",
-    "main.73d6ac29.js.map": "/w95-portfolio/static/js/main.73d6ac29.js.map"
+    "main.8ecb4092.css.map": "/w95-portfolio/static/css/main.8ecb4092.css.map",
+    "main.868c95e0.js.map": "/w95-portfolio/static/js/main.868c95e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.210254c7.css",
-    "static/js/main.73d6ac29.js"
+    "static/css/main.8ecb4092.css",
+    "static/js/main.868c95e0.js"
   ]
 }
