@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/w95-portfolio/static/css/main.8ecb4092.css",
-    "main.js": "/w95-portfolio/static/js/main.868c95e0.js",
+    "main.css": "/w95-portfolio/static/css/main.03919768.css",
+    "main.js": "/w95-portfolio/static/js/main.87798316.js",
     "static/media/prompt.png": "/w95-portfolio/static/media/prompt.aedd8949c4c7f2d691a7.png",
     "static/media/cancerdata1.jpg": "/w95-portfolio/static/media/cancerdata1.46ab08d2df7e09cff000.jpg",
     "static/media/cancerdata2.jpg": "/w95-portfolio/static/media/cancerdata2.19df64e69e607593ee8c.jpg",
@@ -26,11 +26,11 @@
     "static/media/FortisBCLogo.png": "/w95-portfolio/static/media/FortisBCLogo.242c45e42729c8c49d41.png",
     "static/media/router1.png": "/w95-portfolio/static/media/router1.cc617e7ff395f55ab796.png",
     "index.html": "/w95-portfolio/index.html",
-    "main.8ecb4092.css.map": "/w95-portfolio/static/css/main.8ecb4092.css.map",
-    "main.868c95e0.js.map": "/w95-portfolio/static/js/main.868c95e0.js.map"
+    "main.03919768.css.map": "/w95-portfolio/static/css/main.03919768.css.map",
+    "main.87798316.js.map": "/w95-portfolio/static/js/main.87798316.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ecb4092.css",
-    "static/js/main.868c95e0.js"
+    "static/css/main.03919768.css",
+    "static/js/main.87798316.js"
   ]
 }
