@@ -45,11 +45,6 @@ export const EducationWindow = (props) => {
                             <td>Completed</td>
                         </tr>
                         <tr>
-                            <td>Computing Laboratory</td>
-                            <td>CMPT127</td>
-                            <td>Completed</td>
-                        </tr>
-                        <tr>
                             <td>Data Structures and Algorithms</td>
                             <td>CMPT307</td>
                             <td>Completed</td>
@@ -66,7 +61,7 @@ export const EducationWindow = (props) => {
                         </tr>
                         <tr>
                             <td>Discrete Mathematics II</td>
-                            <td>MACM101</td>
+                            <td>MACM201</td>
                             <td>Completed</td>
                         </tr>
                         <tr>
