@@ -19,7 +19,7 @@
     margin: auto;
     position: relative;
     /* max-width: 640px; */
-    height: 40%;
+    height: auto;
     width: 50%;
     background-color: rgb(219, 219, 219);
     border: 2px solid white;
@@ -68,26 +68,28 @@
     flex-direction: row;
     margin-top: 0;
     /* margin-bottom: 20px; */
+    height: auto;
 }
 .popup-content-top h1{
     width: 100%;
     margin: auto;
     font-size: 100px;
-    margin-top: 20px;
+    margin-top: 10%;
     margin-left: 20px;
 }
 
 .popup-content-top p{
     flex: 20;
-    font-size: 150%;
-    margin-top: 10%;
+    font-size: 120%;
+    margin-top: 5%;
 }
 
 .popup-content-top img{
     flex: 1;
-    height: 20%;
+    height: 50%;
+    max-height: 50px;
     vertical-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 5%;
 }
 
@@ -120,7 +122,7 @@
     border-width: 1px;
     border-style: solid;
     border-color: #FFFFFF #808080 #808080 #FFFFFF;
-    padding: 4px 10px;
+    padding: 1% 2%;
     margin: 2%;
     display: inline-block;
     position: relative;

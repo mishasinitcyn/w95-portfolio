@@ -24,7 +24,7 @@ export const AboutWindow = (props) => {
                         <text>My name is Mikhail (Misha) Sinitcyn. I am a computer science student studying web development, databases, data structures, algorithms and artificial intelligence.
                         I am well versed in C, C++, JavaScript, React, Express, HTML, CSS, MATLAB, and Python. I am fluent in English, Russian and French, having lived in Russia and Canada.
                         In my freetime I enjoy exercising, reading, and playing music. <br></br>
-                        Read about my projects in the Academic Projects section. 
+                        Read about my projects in the Projects section. 
                          </text>
                     
                     </div>

@@ -39,31 +39,31 @@ export const ProjectsWindow = (props) => {
                            <td onClick={() => setFortisPopup(true)} ><img src={fileIcon}/> FortisBC Document Database </td>
                             <td>Mar-Apr 2022</td>
                             <td>CMPT276</td>
-                            <td><a href="https://github.com">Github</a></td>
+                            <td><a href="https://www.youtube.com/embed/BQbco5ynQIs" target="_blank">Demo</a></td>
                         </tr>
                         <tr>
                             <td onClick={() => setBloodBankPopup(true)}> <img src={fileIcon}/> Blood Bank Database</td>
                             <td>Jul-Aug 2022</td>
                             <td>CMPT354</td>
-                            <td><a href="https://github.com/n-maido/best-354-app">Github</a></td>
+                            <td><a href="https://github.com/n-maido/best-354-app" target="_blank">Github</a></td>
                         </tr>
                         <tr>
                             <td  onClick={() => setRouterPopup(true)}><img src={fileIcon}/> Network Router</td>
                             <td>Mar 2022</td>
                             <td>CMPT371</td>
-                            <td><a href="https://github.com">Github</a></td>
+                            <td><a href="https://github.com/mishasinitcyn/Routing-Table" target="_blank">Github</a></td>
                         </tr>
                         <tr>
                             <td  onClick={() => setCancerDataPopup(true)} ><img src={documentIcon}/> Cancer Data Analysis</td>
                             <td>Aug 2022</td>
                             <td>MACM316</td>
-                            <td><a href="https://github.com/mishasinitcyn/Computing-Report-Cancer-Data-Analysis/blob/main/Computing%20Report%203%20Mikhail%20Sinitcyn.pdf">Github</a></td>
+                            <td><a href="https://github.com/mishasinitcyn/Computing-Report-Cancer-Data-Analysis/blob/main/Computing%20Report%203%20Mikhail%20Sinitcyn.pdf" target="_blank">Github</a></td>
                         </tr>
                         <tr>
                             <td onClick={() => setClimateDataPopup(true)} ><img src={documentIcon}/> Climate Data Analysis</td>
                             <td>Aug 2022</td>
                             <td>CMPT310</td>
-                            <td>Github</td>
+                            <td><a href="https://github.com/mishasinitcyn/Tree-Ring-Data-Analysis" target="_blank">Github</a></td>
                         </tr>
                     </table>
                 </div>

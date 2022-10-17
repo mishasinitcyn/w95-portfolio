@@ -4,7 +4,7 @@ export const ContactInfoWindow = (props) => {
     return (props.trigger) ?(
         <div className="popup">
 
-            <div className="popup-inner" style={{height: "auto", minHeight: "150px",position: "absolute", top: "20%"}}>
+            <div className="popup-inner" style={{height: "auto", minHeight: "50px",position: "absolute", top: "30%"}}>
 
                 <div className="header">
                     <h1>Contact Info</h1>

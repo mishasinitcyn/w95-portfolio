@@ -33,23 +33,29 @@ function App() {
         <div className="icons">
           <div className="folder-icon" onClick={() => setProjectsWindowOpen(true)}>
             <img src={ProjectsWindowOpen ? computer4Icon: computer5Icon}/>
-            <p>Academic Projects</p>
+            <p>Projects</p>
           </div>
+
+{/* 
           <div className="folder-icon" >
             <img src={document0Icon }/> 
             <p>Leetcode Solutions</p>
           </div>
-        </div>
+ */}
+        <div className="folder-icon" onClick={() => setAboutWindowOpen(true)}>
+            <img src={userCardIcon}/>
+            <p>About Me</p>
+          </div>
 
         <div className="icons-row-2">
+          
+          
+
           <div className="folder-icon" onClick={() => setContactInfoWindowOpen(true)}>
             <img src={ContactInfoWindowOpen ? envelopeOpenIcon: envelopeClosedIcon}/>
             <p>Contact Info</p>
           </div>
-          <div className="folder-icon" onClick={() => setAboutWindowOpen(true)}>
-            <img src={userCardIcon}/>
-            <p>About Me</p>
-          </div>
+        </div>  
         </div>
       </div>
       <div className="bottom-bar" >
