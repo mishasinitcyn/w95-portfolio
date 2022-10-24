@@ -3,7 +3,7 @@ import "./EducationWindow.css"
 
 export const EducationWindow = (props) => {
     return (props.trigger) ?(
-        <div className="education-popup">
+        <div className="education-popup" onClick={() => props.setTrigger(false)}>
 
             <div className="education-popup-inner">
 
@@ -12,7 +12,7 @@ export const EducationWindow = (props) => {
                     <button className="close-btn" onClick={() => props.setTrigger(false)}>X</button>
                 </div>
 
-                <div className="education-content">
+                <div className="education-content" onClick>
                     <table className="courses-table">
                         <tr>
                             <th>Course Name</th>

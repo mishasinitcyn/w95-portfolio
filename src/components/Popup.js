@@ -5,7 +5,7 @@ import infoIcon from "../msg_information-0.png"
 
 function Popup(props) {
     return (props.trigger) ? (
-        <div className="popup">
+        <div className="popup-main" onClick={() => props.setTrigger(false)}>
 
             <div className="popup-inner">
 
@@ -14,7 +14,7 @@ function Popup(props) {
                     <button className="close-btn" onClick={() => props.setTrigger(false)}>X</button>
                 </div>
 
-                <div className="popup-content">
+                <div className="popup-content" onClick>
                     <div className="popup-content-top">
                             <img src={infoIcon}></img>
                         <p>Welcome to Mikhail Sinitcyn's online portfolio.<br></br> Feel free to look around, view my projects, and contact me.</p>

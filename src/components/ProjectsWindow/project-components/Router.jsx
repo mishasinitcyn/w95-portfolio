@@ -9,14 +9,14 @@ import router2 from "./Images/router2.png"
 export const Router = (props) => {
     return (props.trigger) ?(
         
-        <div className="popup">
+        <div className="popup" onClick={() => props.setTrigger(false)}>
             <div className="router-popup-inner">
                 <div className="router-header"  style={{backgroundColor: "blue"}}>
                     <h1>Router</h1>
                     <button className="close-btn" onClick={() => props.setTrigger(false)}>X</button>
                 </div>
 
-                <div className="router-content">
+                <div className="router-content" onClick>
                     <div className="router-description">
                         {/* <h2>Project Description</h2> */}
                         <p><strong>Project Description</strong></p>

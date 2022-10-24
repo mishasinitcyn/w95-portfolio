@@ -2,16 +2,16 @@ import React from 'react'
 
 export const ContactInfoWindow = (props) => {
     return (props.trigger) ?(
-        <div className="popup">
+        <div className="popup" onClick={() => props.setTrigger(false)}>
 
-            <div className="popup-inner" style={{height: "auto", minHeight: "50px",position: "absolute", top: "30%"}}>
+            <div className="popup-inner" style={{height: "auto", minHeight: "50px",position: "absolute", top: "30%"}} onClick>
 
                 <div className="header">
                     <h1>Contact Info</h1>
                     <button className="close-btn" onClick={() => props.setTrigger(false)}>X</button>
                 </div>
 
-                <div className="content">
+                <div className="content" onClick>
                     <div className="content-top">
                         <ul style={{listStyleType: "none", fontSize: "100%"}}>
                             <li><strong>Email:</strong> msa242@sfu.ca</li>
