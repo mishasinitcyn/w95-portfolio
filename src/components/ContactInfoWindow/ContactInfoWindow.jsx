@@ -4,9 +4,9 @@ export const ContactInfoWindow = (props) => {
     return (props.trigger) ?(
         <div className="popup" onClick={() => props.setTrigger(false)}>
 
-            <div className="popup-inner" style={{height: "auto", minHeight: "50px",position: "absolute", top: "30%"}} onClick>
+            <div className="popup-inner" style={{height: "auto", minHeight: "50px",position: "absolute", top: "30%"}} >
 
-                <div className="header">
+                <div className="popup-header">
                     <h1>Contact Info</h1>
                     <button className="close-btn" onClick={() => props.setTrigger(false)}>X</button>
                 </div>
