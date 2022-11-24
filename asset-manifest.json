@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/w95-portfolio/static/css/main.a0783929.css",
-    "main.js": "/w95-portfolio/static/js/main.20d40cf3.js",
+    "main.js": "/w95-portfolio/static/js/main.c95f6fb5.js",
     "static/media/prompt.png": "/w95-portfolio/static/media/prompt.aedd8949c4c7f2d691a7.png",
     "static/media/cancerdata1.jpg": "/w95-portfolio/static/media/cancerdata1.46ab08d2df7e09cff000.jpg",
     "static/media/cancerdata2.jpg": "/w95-portfolio/static/media/cancerdata2.19df64e69e607593ee8c.jpg",
@@ -27,10 +27,10 @@
     "static/media/router1.png": "/w95-portfolio/static/media/router1.cc617e7ff395f55ab796.png",
     "index.html": "/w95-portfolio/index.html",
     "main.a0783929.css.map": "/w95-portfolio/static/css/main.a0783929.css.map",
-    "main.20d40cf3.js.map": "/w95-portfolio/static/js/main.20d40cf3.js.map"
+    "main.c95f6fb5.js.map": "/w95-portfolio/static/js/main.c95f6fb5.js.map"
   },
   "entrypoints": [
     "static/css/main.a0783929.css",
-    "static/js/main.20d40cf3.js"
+    "static/js/main.c95f6fb5.js"
   ]
 }
