@@ -77,7 +77,7 @@ export const EducationWindow = (props) => {
                         <tr>
                             <td>Introduction to Computer Systems</td>
                             <td>CMPT295</td>
-                            <td>In Progress</td>
+                            <td>Completed</td>
                         </tr>
                         <tr>
                             <td>Introduction to Computing Science and Programming</td>
@@ -87,7 +87,7 @@ export const EducationWindow = (props) => {
                         <tr>
                             <td>Introduction to Probability and Statistics</td>
                             <td>STAT270</td>
-                            <td>In Progress</td>
+                            <td>Completed</td>
                         </tr>
                         <tr>
                             <td>Macroeconomics</td>
@@ -117,7 +117,7 @@ export const EducationWindow = (props) => {
                         <tr>
                             <td>User Interface Design</td>
                             <td>CMPT363</td>
-                            <td>In Progress</td>
+                            <td>Completed</td>
                         </tr>
                     </table>
                 </div>
